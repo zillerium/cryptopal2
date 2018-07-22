@@ -1,0 +1,17 @@
+{
+  "name": "cryptopal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eosjs": "^15.0.6",
+    "node-eos": "^0.1.2",
+    "sunbeam": "git+https://github.com/bitfinexcom/sunbeam.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

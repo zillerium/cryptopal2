@@ -12,7 +12,7 @@ eos = Eos({httpEndpoint,  keyProvider})
       eos.contract('efinextether').then((contract) => {
       const args = {
       }
-      return contract.transfer({ "from": "testuser1122", "to": "efinexchange", "quantity": "10.0000000000 BTC", "memo": "go time"})
+      return contract.transfer({ "from": "testuser1122", "to": "efinexchange", "quantity": "1.0000000000 BTC", "memo": "go time"})
      //return contract.cancel(args, this.getAuth())
      })
       .then((res) => {
